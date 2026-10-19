@@ -9,8 +9,20 @@ div.side-by-side {
     display: flex;
 }
 
+.side-by-side img {
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+}
+
+.side-by-side img:hover {
+    transform: scale(1.3);
+ 
+}
+.side-by-side figcaption {
+    text-align: center;
+}
 img {
-    width: 59%;
+    width: 100%;
     max-width: 500px;
 }
 
