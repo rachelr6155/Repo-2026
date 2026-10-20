@@ -114,4 +114,69 @@ h2 {
 }
 
 
+.aboutimg img {
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+    border: 5px solid #6b8e6b;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: white;
+    width: 120%;
+    box-sizing: border-box;
+}
+
+.aboutimg img:hover {
+    transform: scale(1.3);
+}
+
+.aboutimg {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.aboutimg figure {
+    width: 350px;
+    flex-shrink: 0;
+    margin: 20px 40px;
+}
+
+ 
+.aboutimg img {
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+    border: 5px solid #6b8e6b;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.aboutimg img:hover {
+    transform: scale(1.3);
+}
+
+.aboutimg {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.aboutimg figure {
+    width: 350px;
+    flex-shrink: 0;
+    margin: 20px 40px;
+}
+
+.abouttext {
+    flex: 1;
+    max-width: 850px;
+
+ }
+.abouttext p {
+    margin-bottom: 20px;
+}
+
+
 
