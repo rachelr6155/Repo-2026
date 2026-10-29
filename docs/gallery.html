@@ -1,101 +1,90 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
+
     <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
+
         <title>Photography</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
+
         <link rel="stylesheet" type="text/css" href="style.css" />
         <link rel="icon" type="image/png" href="images/orchid-white.png" />
     </head>
     <body>
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
         <h1 class="welcome">Gallery</h1>
-        
         <nav>
             <a href="index.html">Home</a> | <a href="about.html">About Me</a> | <a
-                href="gallery.html">Photography</a> | <a href="cooking.html"> Cooking</a>
+                href="gallery.html">Photography</a> | <a href="cooking.html"> Cooking</a> |
+            <div class="dropdown">
+                <button class="dropbutton" type="button"> DIGIT 100 Projects v </button>
+
+                <div class="dropdown-content">
+                    <a href="essays.html">Essays</a>
+                    <a href="resume.html">Resume</a>
+                </div>
+            </div>
         </nav>
         <h2>About My Photography</h2>
-        <div class="photoparagraph"><p>Photography is one of my favorite hobbies. I enjoy capturing different moments and
-            learning new techniques with my camera.</p>
-        <p>I take photos for the Penn State Behrend hockey team. I enjoy capturing action shots
-            during games and moments on the ice. Photographing hockey has helped me improve my
-            camera skills and learn how to take pictures of fast-moving subjects.</p></div>
+        <div class="photoparagraph">
+            <p>Photography is one of my favorite hobbies. I enjoy capturing different moments and
+                learning new techniques with my camera.</p>
+            <p>I take photos for the Penn State Behrend hockey team. I enjoy capturing action shots
+                during games and moments on the ice. Photographing hockey has helped me improve my
+                camera skills and learn how to take pictures of fast-moving subjects.</p>
+        </div>
         <h2>Miami Zoo Photography</h2>
-        
         <div class="side-by-side">
             <figure>
-                <img src="images/IMG_4652.jpeg" alt="Elephant at Miami Zoo"  />
+                <img src="images/IMG_4652.jpeg" alt="Elephant at Miami Zoo" />
                 <figcaption>Elephant at Miami Zoo</figcaption>
             </figure>
             <figure>
-                <img src="images/IMG_4585.jpeg"
-                    alt="Meerkat at Miami Zoo" />
+                <img src="images/IMG_4585.jpeg" alt="Meerkat at Miami Zoo" />
                 <figcaption>Meerkat at Miami Zoo</figcaption>
             </figure>
             <figure>
-                <img src="images/IMG_4267.jpeg"
-                    alt="Golden Lion Tamarin at Miami Zoo" />
+                <img src="images/IMG_4267.jpeg" alt="Golden Lion Tamarin at Miami Zoo" />
                 <figcaption>Golden Lion Tamarin at Miami Zoo</figcaption>
             </figure>
-            
-       
+
+
 
         </div>
-        
         <h2> Hockey Photography</h2>
-        
         <div class="side-by-side">
             <figure>
-                <img src="images/hockey1.JPG" alt="Behrend hockey team defending"  />
+                <img src="images/hockey1.jpeg" alt="Behrend hockey team defending" />
                 <figcaption></figcaption>
             </figure>
             <figure>
-                <img src="images/hockey2.JPG"
-                    alt="Behrend Hockey Team on the offense" />
+                <img src="images/hockey2.jpeg" alt="Behrend Hockey Team on the offense" />
                 <figcaption></figcaption>
             </figure>
             <figure>
-                <img src="images/hockey3.JPG"
-                    alt="Behrend Hockey Team starting the play" />
+                <img src="images/hockey3.jpeg" alt="Behrend Hockey Team starting the play" />
                 <figcaption></figcaption>
             </figure>
         </div>
-            <h2> Photo 100 </h2>
-            
-            <div class="side-by-side">
-                <figure>
-                    <img src="images/bd-lilley-library-interior.jpg" alt="Lilley Library on Behrend"  />
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="images/IMG_5475.jpeg"
-                        alt="A cool angle of the fireplace inside the Alumni Center on Behrend" />
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="images/YellowFlower.JPG"
-                        alt="A yellow flower seen on campus." />
-                    <figcaption></figcaption>
-                </figure>
-            </div>
-        
-            <footer class="featureBlock">
-                <p>Thank you for visiting my photography gallery!</p>
-                <p>All photos taken by Rachel Retterath.</p>
-                <p><a href="index.html">Back to Home</a></p>
-            </footer>
+        <h2> Photo 100 </h2>
+        <div class="side-by-side">
+            <figure>
+                <img src="images/bd-lilley-library-interior.jpeg" alt="Lilley Library on Behrend" />
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="images/IMG_5475.jpeg"
+                    alt="A cool angle of the fireplace inside the Alumni Center on Behrend" />
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="images/YellowFlower.jpeg" alt="A yellow flower seen on campus." />
+                <figcaption></figcaption>
+            </figure>
+        </div>
+        <footer class="featureBlock">
+            <p>Thank you for visiting my photography gallery!</p>
+            <p>All photos taken by Rachel Retterath.</p>
+            <p><a href="index.html">Back to Home</a></p>
+        </footer>
     </body>
 </html>
