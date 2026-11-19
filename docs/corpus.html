@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+
+        <title>Rachel's Website</title>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="icon" type="image/png" href="images/orchid-white.png" />
+    </head>
+    <body>
+        <h1 class="welcome">Welcome to my Website</h1>
+        <nav>
+            <a href="index.html">Home</a> | <a href="about.html">About Me</a> | <a
+                href="gallery.html">Photography</a> | <a href="cooking.html">Cooking</a> | <div
+                class="dropdown">
+                <button class="dropbutton" type="button"> DIGIT 100 Projects v </button>
+
+                <div class="dropdown-content">
+                    <a href="essays.html">Essays</a>
+                    <a href="resume.html">Resume</a>
+                    <a href="corpus.html">Corpus Analysis</a>
+                </div>
+            </div>
+        </nav>
+        <div class="corpus">
+            <h3>Corpus Analysis</h3>
+            <img src="images/lordoftherings.png" alt="Title image of Lord of the Rings" width="700" />
+            <p> For this assignment, I chose to compare The (iconic) Fellowship of the Ring and The Two
+                Towers by J.R.R. Tolkien. I wanted to see how often certain words and phrases
+                appeared in two of my favorite books. I used Voyant Tools to be able to look at word
+                frequencies and AntConc to be able to look at repeated, specific, phrases. I thought
+                comparing these two books would be interesting because they are part of the same
+                series but focus on vastly different parts of the story. </p>
+
+            <h3>Voyant Analysis</h3>
+
+            <h2>The Fellowship of the Ring</h2>
+            <figure>
+                <img src="images/frodo.png"
+                    alt="Voyant Tools analysis of Frodo in The Fellowship of the Ring" width="700" />
+                <figcaption> Voyant Tools showing how often Frodo's name appears throughout The
+                    Fellowship of the Ring. </figcaption>
+            </figure>
+            <p>
+                <a href="texts/01-The-Fellowship-Of-The-Ring.txt"> View The Fellowship of the Ring
+                </a>
+            </p>
+
+            <p>I chose to look at the word "Frodo" because he is the one carrying the Ring
+                throughout the book. His name appears 1,035 times, which makes sense considering he
+                is one of the main characters with the biggest plotline. I also noticed that his
+                name appears more often in certain sections than others.</p>
+
+            <h2>The Two Towers</h2>
+
+            <figure>
+                <img src="images/twotowers.png" alt="Voyant Tools analysis of The Two Towers"
+                    width="700" />
+                <figcaption> Voyant Tools word frequencies in The Two Towers. </figcaption>
+            </figure>
+            <p>
+                <a href="texts/02-The-Two-Towers.txt"> View The Two Towers </a>
+            </p>
+            <p>When I looked at The Two Towers, I noticed that Frodo's name only appeared 456 times,
+                compared to 1,035 times in The Fellowship of the Ring. His name was barely mentioned
+                in the beginning sections, although it became much more common toward the end. I
+                think this makes sense because the book follows different characters and their
+                adventures before coming back to focus more on Frodo and Sam.</p>
+
+            <h3>AntConc Analysis</h3>
+
+            <h2>The Fellowship of the Ring</h2>
+            <figure>
+                <img src="images/ngram.png"
+                    alt="AntConc N-gram analysis of The Fellowship of the Ring" width="700" />
+                <img src="images/antfellow.png"
+                    alt="AntConc KWIC analysis of The Fellowship of the Ring" width="700" />
+                <figcaption> The phrase "in the Shire" appears 59 times. </figcaption>
+            </figure>
+            <p>
+                <a href="texts/01-The-Fellowship-Of-The-Ring.txt"> View The Fellowship of the Ring
+                </a>
+            </p>
+            <p>When I used the N-Gram tool in AntConc, I looked at groups of three words that
+                appeared frequently in The Fellowship of the Ring. I noticed that phrases like
+                "there was a" and "in the Shire" appeared many times. I chose to look more closely
+                at "in the Shire" because I wanted to see how often it appeared in both books. I
+                believe the Shire is also quite iconic and wasn't sure if it was due to reputation
+                or good setting building for the book.</p>
+            <p>When I used AntConc to look at The Fellowship of the Ring, I noticed that the phrase
+                "in the Shire" appeared 59 times. The Shire is where Frodo and the other hobbits
+                live, so of course it would be mentioned a bit. Looking at the words surrounding the
+                phrase, I noticed that the characters often mention the Shire when talking about
+                their home and reminiscing.</p>
+            <h2>The Two Towers</h2>
+            <figure>
+                <img src="images/anttower.png" alt="AntConc KWIC analysis of The Two Towers"
+                    width="700" />
+                <figcaption> The phrase "in the Shire" appears 7 times. </figcaption>
+            </figure>
+            <p>
+                <a href="texts/02-The-Two-Towers.txt"> View The Two Towers </a>
+            </p>
+            <p>Although, when I looked at The Two Towers, the phrase "in the Shire" only appeared 7
+                times, much more different compared to the first book. This makes sense because the
+                characters have completely left the Shire, having been gone for months now,ß and are
+                traveling to different places. Even though the Shire is still mentioned, it is not
+                as important to the setting of the second book. </p>
+            <br />
+
+            <p> After using Voyant Tools and AntConc, I noticed some differences between the two
+                books. Frodo's name appeared more often in The Fellowship of the Ring, and the
+                phrase "in the Shire" was also used more frequently. I think this shows how the
+                story changes as the characters leave their home and travel to different places.
+                These tools helped me see patterns in the books, which interestingly enough is
+                mostly the setting, that I probably would not have noticed by just simply reading
+                them. </p>
+
+
+
+        </div>
+    </body>
+</html>
